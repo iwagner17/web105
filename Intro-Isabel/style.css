@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+    font-family: fantasy;
+    color:darkcyan;
+    font-weight: bold;
+    font-size: medium;
+}
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    
+}
+h2{
+    color:white;
+}
+a{
+    color: grey;
+    font-size: medium;
+    padding: 40px;
+}
+
+nav {
+    text-align: center;
+    line-height: 3;
+}
+nav a {
+    text-decoration-color: none;
+    background:darkcyan;
+    border:3px darkgrey;
+    border-radius: 30px;
+    padding: 20px 20px;
+    color:white ;
+}
+nav a:visited {
+    color:lightskyblue
+}
+nav a:hover {
+    background:lightgray;
+    color: dodgerblue;
+    
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 5px solid darkcyan;
+    overflow: auto;
+    height: 800px;
+}
+img {
+    border: 3px solid darkcyan;
+}
