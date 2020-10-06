@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            color: white;
+            background-color: plum
+        }
+
+        tr:hover {
+            background: orchid
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Tables</h1>
+        <nav>
+            <a href="index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calendar.html">Creating a calendar</a>
+        </nav>
+
+        <h2>Schedule</h2>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>saturday</th>
+            </tr>
+            <tr>
+                <th>7 am</th>
+                <td rowspan="6">work</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="6">work</td>
+                <td rowspan="6"> work</td>
+            </tr>
+
+            <tr>
+                <th>8 am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <th>9 am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            <tr>
+                <th>10 am</th>
+                <td>dog park day</td>
+                <td></td>
+                <td>dog park day</td>
+                <td></td>
+
+            </tr>
+
+            <tr>
+                <th>11am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            <tr>
+                <th>12pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            <tr>
+                <th>1pm</th>
+                <td></td>
+                <td>marketing class</td>
+                <td>accounting class</td>
+                <td>marketing class</td>
+                <td>accounting class</td>
+                <td>web 101 work</td>
+                <td>english class work</td>
+            </tr>
+
+            <tr>
+                <th>2pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>3pm</th>
+                <td></td>
+                <td>work out</td>
+                <td></td>
+                <td></td>
+                <td>work out</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>4pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
